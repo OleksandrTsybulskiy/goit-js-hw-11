@@ -1,0 +1,51 @@
+body {
+    /* padding: 15px; */
+}
+
+header {
+  background-color: blueviolet;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.search-form {
+  display: flex;
+}
+
+.img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: bisque;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.info {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 10px;
+}
